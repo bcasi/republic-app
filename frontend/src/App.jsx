@@ -9,9 +9,11 @@ import AuthLayout from "./components/auth/AuthLayout";
 function App() {
   return (
     <Routes>
-      <Route path="/" index element={<Home />} />
-      <Route index element={<Home />} />
-      <Route path="/avawatz" element={<CompanyPage />} />
+      {/* <Route path="/" index element={<Home />} /> */}
+      {/* <Route index element={<Home />} /> */}
+      <Route index path="/" element={<CompanyPage />} />
+      {/* <Route index element={<CompanyPage />} /> */}
+
       <Route
         path="/login"
         element={

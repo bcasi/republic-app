@@ -19,7 +19,7 @@ import HeaderRight from "./HeaderRight";
 
 const CompanyHeaderSection = () => {
   return (
-    <div className="md:pt-20 md:pb-12 md:px-5">
+    <div className="md:pt-20 md:pb-12 md:px-5 md:mb-5">
       <header>
         <div className="flex flex-col md:flex-row md:justify-between md:pr-10">
           <HeaderTitle />

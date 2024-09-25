@@ -9,3 +9,11 @@ export const tags = [
   { title: "B2G", icon: "", path: "", color: "#EEEE" },
   { title: "ROBOTICS", icon: "", path: "", color: "#EEEE" },
 ];
+
+export const tabs = [
+  { title: "Pitch", id: "#pitch" },
+  { title: "Leadership", id: "#leadership" },
+  { title: "Biz. model", id: "#bizmodel" },
+  { title: "Competition", id: "#competition" },
+  { title: "Founders", id: "#founders" },
+];

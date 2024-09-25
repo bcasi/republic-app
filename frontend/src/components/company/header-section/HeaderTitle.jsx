@@ -7,7 +7,7 @@ const specialTag = { title: "SPECIAL", icon: "zap", path: "", color: "" };
 
 const HeaderTitle = () => {
   return (
-    <div className="flex flex-col gap-3 max-w-[508px] lg:min-w-full">
+    <div className="flex px-5 flex-col gap-3 max-w-[508px] lg:min-w-full">
       <div className="h-12 flex items-center">
         <img src={logo} className="h-10 " alt="logo" />
         <h1 className="text-black font-bold h-full text-5xl">Avawatz</h1>

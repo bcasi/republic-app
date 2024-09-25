@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../common/Container";
 import Header from "../common/Header";
-import CompanyHeaderSection from "./CompanyHeaderSection";
+import CompanyHeaderSection from "./header-section/CompanyHeaderSection";
 
 const CompanyLayout = () => {
   return (

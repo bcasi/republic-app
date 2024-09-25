@@ -14,7 +14,7 @@ const CompanyLayout = () => {
           <CompanyHeaderSection />
         </Container>
       </div>
-      <div className="flex">
+      <div className="hidden lg:block">
         <TabsSection />
       </div>
     </div>
